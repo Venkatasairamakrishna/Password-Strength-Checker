@@ -1,0 +1,32 @@
+In this project, we will create a password strength checker that can help users create strong 
+passwords for their online accounts.The tool will analyze the user's password and provide
+a score based on its strength level.It will also provide feedback on how the user can improve
+the strength of their password.
+
+Tools and Technologies:
+   Programming Language: Python
+   Libraries: re, getpass
+
+Steps to Implement:
+
+Step 1: Get Input from the User
+
+The first step is to get the user's input for their password. We will use the getpass module to 
+get the password from the user without displaying it on the screen.
+
+Step 2: Check Password Strength
+
+We will define a function that will check the password's strength by analyzing its length, use 
+of upper and lower case letters, special characters, and numbers. We will assign a score to the
+ password based on these factors.
+
+Step 3: Provide Feedback to User
+
+We will provide feedback to the user based on the score of their password. We will display a
+ message to the user that their password is weak, moderate, or strong. We will also provide
+ suggestions on how they can improve the strength of their password.
+
+Step 4: Run the Password Strength Checker
+
+Finally, we will run the password strength checker program, and the user will be prompted to
+ input their password. The program will analyze the password and provide feedback to the user.
